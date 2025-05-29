@@ -1,5 +1,5 @@
 #Function
-#Is a blco of code which only runs when it's called
+#Is a block of code which only runs when it's called
 #We can pass data, known as parameters and the function can data as a result
 
 def my_function():
@@ -21,7 +21,7 @@ def my_function(fname):
 
 my_function("Ashlee")
 
-def print_full_name(fname, flast_name)
+def print_full_name(fname, flast_name):
     print(f"{fname} {flast_name}")
 
 print_full_name(10, 15) 
@@ -49,6 +49,8 @@ def add(x, y): #x=10 y=3
 #name = input("Enter your name: ") 
 #print(name)
 #age = input("Enter your age: ")
+
+
 x = input("Enter a value: ") 
 print(type(x))
 y = input("Enter a second value: ")
@@ -67,3 +69,9 @@ print(x+y)
 #print(type(x))
 
 #wrap everything into input method
+
+name = "Harry"
+age = 24
+
+print(name + str(age))
+print(f"Hello i am {name}, and i am {age} years old")
