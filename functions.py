@@ -63,6 +63,8 @@ y = int(input("Enter a second value: "))
 print(type(y))
 print(x+y)
 
+print(add(x,y)) 
+
 
 #print(x+y)
 #concatinating {5 and 3 are strings}
@@ -71,7 +73,7 @@ print(x+y)
 #wrap everything into input method
 
 name = "Harry"
-age = 24
+age = 11 
 
 print(name + str(age))
-print(f"Hello i am {name}, and i am {age} years old")
+print(f"Hello I am {name}, and I am {age} years old")

@@ -30,3 +30,21 @@ elif age == 100:
 else:
     print(f"Sorry, you're getting old.")
 
+
+#Exercise
+x = 5
+y = 8
+if x > y:
+    print("Hello")
+elif x == 10:
+    print("World")
+else:
+    print("Welcome")
+
+x = "Hello"
+y = "hello"
+
+if x == y:
+    print("Hey it's the same word")
+else:
+    print("They're different!")
